@@ -1,10 +1,20 @@
-- 👋 Hi, I’m @Yokeshwari01
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
-Yokeshwari01/Yokeshwari01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+
+# Define the Batsman class that inherits from Player
+class Batsman(Player):
+    def play(self):
+        print("The batsman is batting")
+
+# Define the Bowler class that inherits from Player
+class Bowler(Player):
+    def play(self):
+        print("The bowler is bowling")
+
+# Create objects of the Batsman and Bowler classes
+batsman = Batsman()
+bowler = Bowler()
+
+# Call the play() method for each object
+batsman.play()
+bowler.play() link to take a look at your changes.
 --->
